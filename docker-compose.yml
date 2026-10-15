@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    image: github-monitor:v1
+    container_name: devops_github_monitor
